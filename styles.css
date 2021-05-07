@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+.logo {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 3px 10px 3px 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.content-box {
+  width: 72%;
+  margin: 20px auto 10px auto;
+  background-color: rgb(234, 234, 234);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* NAVBAR */
+nav {
+  background-color: lightgray;
+  min-height: 100px;
+}
+
+.nav-content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background-color: rgb(81, 116, 81);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 20px;
+  background-color: rgb(235, 235, 164);
+}
+
+.suny-orange {
+  margin: 0%;
+  padding: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* HOMEPAGE */
+#welcome {
+  background-image: url('./corn.jpeg');
+  width: auto;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+.welcome-text {
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(216, 215, 215, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.student-work-carosel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.student-work-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(108, 132, 108);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.testimonial-box h3 {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.testimonial-box h4 {
+  text-align: right;
+}
+
+.testimonial-box {
+  background-color: rgb(108, 132, 108);
+  width: 75%;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.student-work-img {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+/* ABOUT US */
+.staff-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.staff-carosel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.staff-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* REGISTRATION */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+}
+label {
+  margin: 10px 0px 10px 0px;
+}
+button {
+  width: 30%;
+  margin: 20px auto 10px auto;
+}
+
+@media (max-width: 605px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .student-work-carosel {
+    display: flex;
+    flex-direction: column;
+  }
+  .staff-carosel {
+    flex-direction: column;
+    align-items: center;
+  }
+}
